@@ -1,0 +1,19 @@
+<launch>
+
+    <include file="$(find image_publisher)/launch/start_grab.launch"/>
+
+   
+    <node pkg="servo_server" type="servo_server" name="servo_server" output="screen"/>
+    
+    <node pkg="yolo_server" type="yoloserver" name="yoloserver" output="screen">
+        <param name="engine_name" value="/home/amov/robocup/src/yolo_server/engine/xc3types.engine" type="string"/>
+        <param name="target1" value="0" type="int"/>
+        <param name="target2" value="1" type="int"/>
+        <param name="target3" value="4" type="int"/>
+
+
+    </node>
+
+
+
+</launch>

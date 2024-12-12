@@ -1,0 +1,7 @@
+<launch>
+
+	<group ns="iris_0">
+	<node pkg="controller" type="ego_tracker" name="ego_tracker" output="screen"/>
+	</group>
+
+</launch>

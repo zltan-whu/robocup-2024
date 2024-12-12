@@ -1,0 +1,7 @@
+int32 num
+---
+bool is_detect
+int32 min_type
+float64 x
+float64 y
+float64 z

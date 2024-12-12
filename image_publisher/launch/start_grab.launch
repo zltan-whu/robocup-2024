@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="image_publisher" type="start_stream_node" name="start_stream_node" output="screen">
+
+    </node>
+</launch>
